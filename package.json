@@ -1,6 +1,6 @@
 {
   "name": "com.rimurudev.editorfpsdisplay",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Editor FPS Display",
   "description": "A Unity Editor extension to display FPS in the Scene view. Supports Unity 2020.3 LTS and newer (including Unity 6.x).",
   "unity": "2020.3",

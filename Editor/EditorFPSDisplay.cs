@@ -11,10 +11,13 @@
 #if UNITY_EDITOR
 using UnityEditor;
 using UnityEngine;
+using System.Diagnostics.CodeAnalysis;
 
 namespace RimuruDev
 {
     [InitializeOnLoad]
+    [SuppressMessage("Domain reload", "UDR0003:Domain Reload Analyzer")]
+    [SuppressMessage("Domain reload", "UDR0002:Domain Reload Analyzer")]
     public sealed class EditorFPSDisplay
     {
         private static float fps;
